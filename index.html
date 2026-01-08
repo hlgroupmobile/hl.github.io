@@ -1,45 +1,33 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>MCC Net World</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="container">
-    <h1>MCC Net World</h1>
-    <p class="subtitle">
-      통신 업무 지원 포털<br>
-      通信业务支持入口
-    </p>
+<h1>MCC 通信业务平台</h1>
+<p class="subtitle">
+  통신 업무 지원 시스템<br>
+  运营商业务支持系统
+</p>
 
-    <div class="card">
-      <button onclick="openLink('#')">
-        가입 서류<br>
-        <span>入网资料</span>
-      </button>
-    </div>
-
-    <div class="card">
-      <button onclick="openLink('#')">
-        LG U+ · KT · SKT<br>
-        <span>三大运营商</span>
-      </button>
-    </div>
-
-    <div class="card">
-      <button class="disabled" onclick="comingSoon()">
-        준비 중<br>
-        <span>准备中</span>
-      </button>
-    </div>
-
-    <footer>
-      © 2026 MCC Net World
-    </footer>
+<!-- KT -->
+<div class="carrier">
+  <h2>KT</h2>
+  <div class="logo-grid">
+    <img src="logos/kt1.png" onclick="openLink('#')">
+    <img src="logos/kt2.png" onclick="openLink('#')">
   </div>
+</div>
 
-  <script src="script.js"></script>
-</body>
-</html>
+<!-- SK -->
+<div class="carrier">
+  <h2>SK Telecom</h2>
+  <div class="logo-grid">
+    <img src="logos/sk1.png" onclick="openLink('#')">
+    <img src="logos/sk2.png" onclick="openLink('#')">
+  </div>
+</div>
+
+<!-- LG -->
+<div class="carrier">
+  <h2>LG U+</h2>
+  <div class="logo-grid">
+    <img src="logos/lg1.png" onclick="openLink('#')">
+    <img src="logos/lg2.png" onclick="openLink('#')">
+  </div>
+</div>
+
